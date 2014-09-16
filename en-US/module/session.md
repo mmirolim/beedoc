@@ -21,7 +21,7 @@ Import package first:
 		"github.com/astaxie/beego/session"
 	)
 
-Then initialize a gloal variable as session manager:
+Then initialize a global variable as session manager:
 
 	var globalSessions *session.Manager
 	

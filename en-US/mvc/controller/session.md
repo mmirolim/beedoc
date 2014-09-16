@@ -83,7 +83,7 @@ Here is some parameters used in Session module:
 - SessionCookieLifeTime
   The cookie expire time. The cookie is used to store data in client.
 
-from beego1.1.3 beego remove all the dependence,if you use thees stors:mysql、redis、couchbase、memcache、postgres. You should install first:
+from beego 1.1.3 removed all dependencies, if you use these stores:mysql、redis、couchbase、memcache、postgres. You should install it first:
 
 	go get -u github.com/astaxie/beego/session/mysql 
 	
